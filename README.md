@@ -21,7 +21,8 @@ Next step would be to add authentication
 Check the img folder to look at the images of how it looks like
 
 ### IMAGE
-![chat box overview](src\img\Chat box page view.png)
+![chat box overview](https://github.com/BrianSteel/Vue-Chat-Box/blob/master/src/img/Chat%20box%20page%20view.png?raw=true)
+
 
 ## Project setup
 ```
