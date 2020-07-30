@@ -1,13 +1,13 @@
 <template>
   <div class="welcome container">
-    <div class="card">
+    <div class="card blue-grey lighten-5">
       <div class="card-content center-align">
-        <h2 class="teal-text">Welcome</h2>
+        <h2 class="blue-grey-text">Welcome</h2>
         <form @submit.prevent="enterChatBox">
           <label for="name">Enter Your Name:</label>
           <input type="text" name="name" v-model="name">
           <p v-if="feedback" class="red-text">{{ feedback }}</p>
-          <button class="btn teal">Enter Chat Box</button>
+          <button class="btn blue-grey">Enter Chat Box</button>
         </form>
       </div>
     </div>

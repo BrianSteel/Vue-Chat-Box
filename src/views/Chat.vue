@@ -1,11 +1,11 @@
 <template>
   <div class="chat container">
-      <h2 class="center green-text">Chat Box</h2>
-      <div class="card">
+      <h2 class="center blue-grey-text">Chat Box</h2>
+      <div class="card blue-grey lighten-5">
           <div class="card-content">
               <ul class="messages" v-chat-scroll>
                   <li v-for='message in messages' :key="message.id" :class = "[name === message.name? 'right-align':'']">
-                      <span class="teal-text name">{{message.name}}- </span>
+                      <span class="blue-grey-text name">{{message.name}}- </span>
                       <span class="grey-text text-darken-3">{{message.content}}</span>
                       <span class="time grey-text">{{message.timestamp}}</span>
                   </li>
@@ -78,6 +78,7 @@ export default {
 .chat h2{
     font-size: 2.6rem;
     margin-bottom: 2.5rem;
+    font-weight: bold;
 }
 
 .chat span{
